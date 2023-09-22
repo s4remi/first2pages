@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 const port = 3030;
 app.get("/", (req, res) => {
-  res.sendFile("index.html");
+  res.sendFile("sindex.html");
 });
 
 app.listen(port, () => {
