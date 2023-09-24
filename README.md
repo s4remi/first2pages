@@ -65,9 +65,10 @@ my first 2page
 
 ## Screenshots
 
-![./]
-(https://github.com/s4remi/first2pages/blob/master/images/sc01.png)) 
 ![Sample Image](./images/sc01.png)
+![Sample Image](./images/sc02.png)
+![Sample Image](./images/sc03.png)
+![Sample Image](./images/sc04.png)
 
 
 ## Instructions to Build
