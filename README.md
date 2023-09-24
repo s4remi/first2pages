@@ -67,6 +67,7 @@ my first 2page
 
 ![./]
 (https://github.com/s4remi/first2pages/blob/master/images/sc01.png)) 
+![Sample Image](./images/sc01.png)
 
 
 ## Instructions to Build
