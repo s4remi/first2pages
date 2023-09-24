@@ -1,4 +1,3 @@
-# first2pages
 # GitHub Repository ReadMe
 
 This repository contains the code for Ali Saremi's personal portfolio website, as well as project and index pages. The website showcases Ali's skills, projects, and contact information.
@@ -40,5 +39,43 @@ If you have any questions or would like to get in touch with Ali Saremi, you can
 - [Website](https://s4remi.github.io/first2pages/)
 
 ---
+# Project Name
+
+A brief description of your project.
+
+## Table of Contents
+
+- [Author](#author)
+- [Class Link](#class-link)
+- [Project Objective](#project-objective)
+- [Screenshots](#screenshots)
+- [Instructions to Build](#instructions-to-build)
+
+## Author
+
+- **Author:** [Ali Saremi]
+- **Email:** [s4remi@gmail.com]
+
+## Class Link
+
+- This project is associated with [Class CS5610] at [NEU University]. You can find more information about the class [https://johnguerra.co/classes/webDevelopment_fall_2023/].
+
+## Project Objective
+
+
+## Screenshots
+
+![./]
+![Screenshot 2](/path/to/screenshot2.png)
+
+## Instructions to Build
+
+To build and run this project, follow these steps:
+
+1. Clone the repository to your local machine:
+git clone https://github.com/your-username/your-project.git
+2. Navigate to the project directory
+3. Install the project dependencies
+4. Start the development server
 
 &copy; 2023 Ali Saremi
