@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.about_container {
+  width: 100%;
+  padding: 50px 8%;
+}
+.imageSection {
+  grid-area: imageSect;
+}
+.infoSection {
+  grid-area: infoSect;
+}
+.skillSection {
+  grid-area: skillSect;
+}
+.about_container .about_contents {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  row-gap: 70px;
+  column-gap: 70px;
+  grid-template-areas: "imageSect infoSect" "skillSect skillSect";
+}
+.about_contents .imageSection {
+  position: relative;
+  min-width: 300px;
+  height: 380px;
+}
+.imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.about_contents .imageSection::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  outline: 3px solid #787cb5;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.infoSection h1 {
+  color: #dedce1;
+  font-size: 30px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+  position: relative;
+}
+.infoSection h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 110%;
+  left: 0;
+  background-color: #aaabb0;
+}
+
+.infoSection h1::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  top: calc(110% -1px);
+  left: 0px;
+  background-color: #787cb5;
+}
+.infoSection h2 {
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  color: #787cb5;
+  padding: 14px 0px 15px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.infoSection p {
+  color: #aaabb0;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: justify;
+  padding-bottom: 8px;
+}
+.personalInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
+  margin-top: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #555;
+}
+.personalInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.personalInfo div span {
+  color: #aaabb0;
+  letter-spacing: 1px;
+}
+.infoSection button {
+  min-width: 150px;
+  padding: 8px 18px;
+  border: 1px solid #787cb5;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: chocolate;
+  color: #aaabb0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-top: 20px;
+}
+.infoSection button:hover {
+  color: bisque;
+  border-color: #aaabb0;
+}
+@media (max-width: 1068px) {
+  .about_container .about_contents {
+    grid-template-areas: "imageSect skillSect" "infoSect infoSect";
+  }
+}

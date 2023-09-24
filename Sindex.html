@@ -4,19 +4,182 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porfolio</title>
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="./css/styless.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="hero">
       <nav>
-        <img class="logo" src="./images/personal.png" alt="Ali's picture" />
+        <img class="logo" src="./images/personal.png" alt="Ali's logo" />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Hire Me</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="./aboutme.html">ABOUT</a></li>
+          <li><a href="#skillstitle">SKILLS</a></li>
+          <li><a href="#" style="display:none;">Hire Me</a></li>
         </ul>
       </nav>
+      <div class="det">
+        <h1>I am Ali <span>Saremi</span></h1>
+        <p>This is my official portfolio website to show all 
+        </br>detail and work experience in web development</p>
+        <!--social media starts-->
+        <div class="wrapper">
+          <div class="button">
+             <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+             </div>
+             <span class="link" data-url="https://www.facebook.com/ali.saremi">Facebook</span>
+          </div>
+          <div class="button">
+             <div class="icon">
+                <i class="fab fa-twitter"></i>
+             </div>
+             <span class="link" data-url="https://twitter.com/lalsl">Twitter</span>
+          </div>
+          <div class="button">
+             <div class="icon">
+                <i class="fab fa-instagram"></i>
+             </div>
+             <span class="link" data-url="https://instagram.com/lalsl">Instagram</span>
+          </div>
+          <div class="button">
+             <div class="icon">
+                <i class="fab fa-github"></i>
+             </div>
+             <span class="link" data-url="https://github.com/s4remi">Github</span>
+          </div>
+          <div class="button">
+             <div class="icon">
+                <i class="fab fa-youtube"></i>
+             </div>
+             <span class="link" data-url="https://youtube.com/@s4remi?">YouTube</span>
+          </div>
+       </div>
+        <!-- ending the social media-->
+        <!---- >
+        <a href="./asset/Ali Saremi Tech resum-base.pdf">DOWNLOAD CV</a>
+      -->
+      </div>
+      <div class="images">
+        <img scale="" class="shape" src="./images/12.png" alt="shape picture">
+        <img class="me" src="./images/img_2397.png" alt="ali's picture">
+      </div>
     </div>
+    <section id="skillstitle">
+      <div >
+        <em><strong>SKILLS:</strong></em>
+      </div>
+    </section>
+    <section class="skillSection">
+      <div class="skill">
+        <div class="subject">Hard work</div>
+        <div class="progress_bar">
+          <div class="progress_line" value="95%" style="max-width: 95%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="subject">Web Desinging</div>
+        <div class="progress_bar">
+          <div class="progress_line" value="85%" style="max-width: 85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="subject">Creativity</div>
+        <div class="progress_bar">
+          <div class="progress_line" value="85%" style="max-width: 85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="subject">Web development</div>
+        <div class="progress_bar">
+          <div class="progress_line" value="85%" style="max-width: 85%"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section id="project1" class="container my-5">
+      <h2>Projects:</h2>
+      <h3 class="text-center">AR app Mobile Application</h3>
+      <p class="lead text-center">
+        Create an Augmented Reality (AR) Mobil application that Users can
+        select any organic molecule from a list of molecules and can examine
+        the 3D model of that molecule using their camera sensors and AR in
+        real-time on their screen. This will help them learn things quickly in
+        a fun way because atoms and bonds will be color coded which will help
+        them identify and remember things easily.
+      </p>
+      <div class="content-wrapper">
+        <div class="left-content">
+          <h2>Screenshots</h2>
+          <img src="./images/p1.png" alt="Screenshot 1" class="img-fluid" />
+        </div>
+        <div class="right-content">
+          <h2>Features</h2>
+          <ul>
+            <li>Ability to make the model in 3D or 2D</li>
+            <li>having chat box and sharing the model and formulas</li>
+            <li>User authentication</li>
+          </ul>
+
+          <h2>Technologies Used</h2>
+          <ul>
+            <li>android studio</li>
+            <li>firebase</li>
+            <li>JavaScript</li>
+            <li>Scenceform SDK</li>
+            <li>MangoDB</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- other project start-->
+    <section id="project2" class="container my-5">
+      <h3 class="text-center">Ecommerce Store</h3>
+      <p class="lead text-center">
+        HTML, CSS, JavaScript, Node, React, MongoDB, Java • create a
+        distributed online marketplace that has ability to create user
+        accounts, search and browse products, add items to a cart, make
+        payments, and track orders. Additionally, consider non-functional
+        requirements such as scalability, reliability, security, and
+        performance. for the design system the user interface is separate from
+        the back-end services and partition the database to reduce contention
+        and improve scalability, it includes: Time and Clocks, Distributed
+        Mutual Exclusion, Fault-tolerance, the state of the system is
+        distributed across multiple client or server nodes. • The only
+        centralized service is that supports users logging on, adding or
+        removing clients or servers.
+      </p>
+      <div class="content-wrapper">
+        <div class="left-content">
+          <h2>Screenshots</h2>
+          <img
+            src="./images/Signup:Login.png"
+            alt="Screenshot 1"
+            class="img-fluid"
+          />
+        </div>
+        <div class="right-content">
+          <h2>Features</h2>
+          <ul>
+            <li>Ability to make the model in 3D or 2D</li>
+            <li>having chat box and sharing the model and formulas</li>
+            <li>User authentication</li>
+          </ul>
+          <h2>Technologies Used</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Socket programming</li>
+            <li>JAVA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end of other project-->
+    <script src="index.js"></script>
   </body>
 </html>
