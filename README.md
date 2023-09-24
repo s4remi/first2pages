@@ -66,8 +66,8 @@ my first 2page
 ## Screenshots
 
 ![./]
-[./images/sc01](./images/sc01) "./images/sc01"
-["./images/sc01"]
+(https://github.com/s4remi/first2pages/blob/master/images/sc01.png)) 
+
 
 ## Instructions to Build
 
