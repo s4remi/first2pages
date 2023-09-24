@@ -41,7 +41,7 @@ If you have any questions or would like to get in touch with Ali Saremi, you can
 ---
 # Project Name
 
-A brief description of your project.
+my first 2page
 
 ## Table of Contents
 
@@ -66,7 +66,8 @@ A brief description of your project.
 ## Screenshots
 
 ![./]
-![Screenshot 2](/path/to/screenshot2.png)
+[./images/sc01](./images/sc01) "./images/sc01"
+["./images/sc01"]
 
 ## Instructions to Build
 
