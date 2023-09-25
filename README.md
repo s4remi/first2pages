@@ -39,6 +39,7 @@ If you have any questions or would like to get in touch with Ali Saremi, you can
 - [Website](https://s4remi.github.io/first2pages/)
 
 ---
+
 # Project Name
 
 my first 2page
@@ -62,7 +63,6 @@ my first 2page
 
 ## Project Objective
 
-
 ## Screenshots
 
 ![Sample Image](./images/sc01.png)
@@ -71,24 +71,24 @@ my first 2page
 ![Sample Image](./images/sc04.png)
 ![Sample Image](./images/sc05.png)
 
+## Presentation youtube link
 
-## Presantation youtube link
-[](https://youtu.be/UvisUujoqHY)
+[presentation youtube link](https://youtu.be/UvisUujoqHY)
 
 ## Demo youtube link
-[](https://youtu.be/vdtRxOq_nZ4)
+
+[demo youtube link](https://youtu.be/vdtRxOq_nZ4)
 
 ## JS file
-[](./index.js)
 
+[the js file](./index.js)
 
 ## Instructions to Build
-
 
 To build and run this project, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/your-username/your-project.git
 2. Navigate to the project directory
 3. Install the project dependencies
 4. Start the development server
