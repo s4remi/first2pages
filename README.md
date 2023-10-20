@@ -90,6 +90,7 @@ my first 2page
 ## Design document
 
 ![Sample Image](./images/mockup.jpeg)
+![Sample Image](./images/mockup2.jpeg)
 
 ## Instructions to Build
 
