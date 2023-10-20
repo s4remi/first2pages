@@ -83,6 +83,10 @@ my first 2page
 
 [the js file](./index.js)
 
+## Design document
+
+![mockup](./images/mockup.jpeg)
+
 ## Instructions to Build
 
 To build and run this project, follow these steps:
