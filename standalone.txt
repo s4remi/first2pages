@@ -1,0 +1,43 @@
+    Project Description:
+
+This is a personal portfolio website. 
+The project aims to showcase my skills, projects, and provide information about my background.
+Here's a high-level project description:
+
+Project: Personal Portfolio Website
+Description: This project involves the development of a personal portfolio website for Ali Saremi, a computer science student with a background in civil engineering and mathematics.
+The website serves as a platform to showcase Ali's skills, display project details,
+and provide information about his background and contact information.
+It includes multiple sections such as the homepage, about me, and projects. 
+The website also incorporates interactive elements and links to Ali's social media profiles and resume for further engagement.
+
+    User Personas:
+
+User Persona 1: Hiring Manager
+
+    Name: Sarah
+    Background: Sarah is a hiring manager at a technology company looking to hire talented developers. She frequently reviews online portfolios of potential candidates to assess their skills and experience.
+    Goals: Sarah's goal is to evaluate Ali's technical skills and project experience. She wants to determine if Ali is a suitable candidate for job opportunities at her company.
+
+User Persona 2: Student/Developer
+
+    Name: Alex
+    Background: Alex is a computer science student with an interest in computer graphics, AR, VR, and distributed systems. He is looking for inspiration, project ideas, and learning resources.
+    Goals: Alex's goal is to explore Ali's portfolio to gain insights into the types of projects Ali has worked on. He wants to find projects related to computer graphics and learn from Ali's experiences.
+
+    User Stories (Use Cases with a Story):
+
+User Story 1: As a Hiring Manager, Sarah wants to review Ali's technical skills and project experience on his portfolio website.
+
+Story: Sarah, the hiring manager, visits Ali's portfolio website. She navigates to the "Projects" section and reviews detailed 
+information about the projects Ali has worked on. She is particularly interested in the "AR app Mobile Application" project. 
+Sarah examines the project's features and the technologies used, finding it relevant to her company's needs.
+She also checks Ali's contact information to reach out for potential job opportunities.
+
+User Story 2: As a Student/Developer, Alex seeks inspiration and learning resources on Ali's portfolio website.
+
+Story: Alex, a computer science student, visits Ali's portfolio website to explore his work. 
+He starts by reading Ali's background information on the "About Me" page.
+This inspires Alex to pursue computer graphics and distributed systems. He then navigates to the "Projects" section and
+finds the "AR app Mobile Application" project. Alex reads the project's description and features, gaining insights into how Ali used AR technology. 
+This motivates Alex to research and experiment with AR development.
