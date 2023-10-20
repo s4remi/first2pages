@@ -81,7 +81,11 @@ my first 2page
 
 ## JS file
 
-[the js file](./index.js)
+[Link to JavaScript File](blob:https://github.com/922a6492-9b98-405f-b4d4-905f99ded830)
+
+## Design document
+
+![mockup](./images/mockup.jpeg)
 
 ## Design document
 
