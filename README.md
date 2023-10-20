@@ -85,7 +85,7 @@ my first 2page
 
 ## Design document
 
-![mockup](./images/mockup.jpeg)
+![Sample Image](./images/mockup.jpeg)
 
 ## Instructions to Build
 
